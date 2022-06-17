@@ -1,0 +1,20 @@
+{
+    "name": "api-mercadopago",
+    "version": "1.0.0",
+    "description": "API checkout mercadopago personal",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "author": "Procyon desarrollo",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mercadopago": "^1.5.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
