@@ -6,7 +6,7 @@ const app = express()
 const route = express.Router()
 app.use(cors())
 
-var whilelist = ['https://mapache.netlify.app']
+var whilelist = ['https://example-site.app']
 var corsOptions = {
     origin: function(origin, callback) {
         if (whilelist.indexOf(origin) !== -1) {
